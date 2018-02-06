@@ -1,3 +1,32 @@
 This is a project for fun using flask
-
 The goal is to be able to integrate some sort of Golang into it (probably using it to call services) as I'm learning Go
+
+In order to use this script, you need to have flask and mysql installed
+
+
+For MacOS:
+
+To install flask
+```
+pip install flask
+```
+
+To start flask service
+```
+FLASK_APP=flask_main.py flask run
+```
+
+To install MySQL:
+```
+brew install mysql
+```
+My version is on 5.6
+
+The config uses barebone setup with localhost and root as user. Change accordingly.
+
+To start mysqlservice:
+```
+brew services start mysql
+```
+
+

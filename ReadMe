@@ -1,0 +1,3 @@
+This is a project for fun using flask
+
+The goal is to be able to integrate some sort of Golang into it (probably using it to call services) as I'm learning Go
